@@ -30,8 +30,6 @@ Application implementing the work of the site for the purchase of tickets to the
 >
 >_**Spring Security**_
 >
->_**Spring Data**_
->
 >_**Hibernate**_
 >
 >_**MySQL**_
@@ -41,7 +39,7 @@ Application implementing the work of the site for the purchase of tickets to the
 ## Structure:
 This project has **N-tier architecture**. It consists of:_
 
-**Controller layer** - accept http requests from client and display information at web page.
+**Controller layer** - accept http requests from client and sends responses.
 
 **Service layer** - all business-logic is located here.
 
